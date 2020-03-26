@@ -1,0 +1,129 @@
+.Corpo{
+    background-image: url("../img/site-background.jpg");
+    background-repeat: repeat;
+    background-size: 300px;
+    min-height: calc(100% - 25px);
+}
+.Rodape{
+    background-color: #ccc;
+}
+.formulario-login{
+    padding: 10px 20px 20px 20px;
+    background-color: #ddd;
+    border-radius: 15px;
+    animation-name: form-login;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+@keyframes form-login{
+    from{
+        opacity: .2;
+        margin-top: 0;
+    }
+    to{
+        opacity: .9;
+        margin-top: 20px;
+    }
+}
+
+.CartaoHome{
+    width: 100%;
+}
+.Bloco64{
+    width: 64px;
+    height: 64px;
+}
+
+.MiniaturaDetalhe{
+    max-width: 64px;
+    max-height: 64px;
+    width: auto;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .Item{
+        max-height: 350px;
+    }
+}
+
+.ImagensFormularioObjeto{
+    max-width:100%;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+.imagemperfil{
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.redefinirsenha{
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.pergunta{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#atualizaimagem{
+    margin: 8px;
+    opacity: 0.7;
+    display: inline;
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+#CancelaImagemObjeto1, #CancelaImagemObjeto2, #CancelaImagemObjeto3, #CancelaImagemObjeto4, #CancelaImagemObjeto5 {
+    display: inline;
+    display: none;
+    margin-top: 7px;
+    right: 27px;
+    position: absolute;
+    z-index: 3;
+}
+
+
+#cancelaimagem, #cancelaimagemperfil {
+    opacity: 0.6;
+    display: inline;
+    display: none;
+    margin-top: 7px;
+    right: 27px;
+    position: absolute;
+    z-index: 1;
+}
+
+.Invisivel{
+    display: none;
+}
+
+#previaimgperfil{
+    display: inline;
+}
+
+#menucategoria, #enderecoobjeto, #alteraend, #formaltend, #alteracat{
+    display: none;
+}
+
+#infousuario{
+    z-index: 2;
+    display: none;
+    position: absolute;
+    
+}
+.hidden, #salvaimagem, #FormularioObjetoParte1, #FormularioObjetoParte2, #EnderecoDoObjetoCorpo, #Imagem1DoObjetoCorpo, #Imagem2DoObjetoCorpo, 
+#Imagem3DoObjetoCorpo, #Imagem4DoObjetoCorpo, #Imagem5DoObjetoCorpo{
+    display: none;
+}
